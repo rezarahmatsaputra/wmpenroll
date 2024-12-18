@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Available Subjects List -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Available Subjects"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <ListView
+        android:id="@+id/lvAvailableSubjects"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:choiceMode="singleChoice"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Enroll Button -->
+    <Button
+        android:id="@+id/btnEnroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enroll Subject"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Enrolled Subjects List -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enrolled Subjects"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <ListView
+        android:id="@+id/lvEnrolledSubjects"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Total Credits -->
+    <TextView
+        android:id="@+id/tvTotalCredits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Credits: 0"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
